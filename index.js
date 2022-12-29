@@ -6,7 +6,10 @@ const requestdata = require("./lib/requestdata.js");
 const Users = require("./lib/users.js");
 // Create a new Discord client
 (async () => {
-    console.log("hello");
+    // Get access token and create a new client
+    const mvstoken = await generatemvstoken.getAccessToken;
+    mvs_client = new Client({ accessToken: mvstoken });
+
 })().catch((error) => {
     console.error(error);
 });
