@@ -4,6 +4,7 @@ const Characters = require("./lib/characters.js");
 const generatemvstoken = require("./lib/generatemvstoken.js");
 const requestdata = require("./lib/requestdata.js");
 const Users = require("./lib/users.js");
+const Maps = require("./lib/maps.js");
 // Create a new Discord client
 (async () => {
     // Get access token and create a new client
@@ -19,3 +20,4 @@ module.exports.Characters = Characters;
 module.exports.Users = Users;
 module.exports.requestdata = requestdata;
 module.exports.generatemvstoken = generatemvstoken;
+module.exports.Maps = Maps;
