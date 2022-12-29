@@ -6,16 +6,7 @@ const requestdata = require("./lib/requestdata.js");
 const Users = require("./lib/users.js");
 // Create a new Discord client
 (async () => {
-    // Get access token and create a new client
-    const mvstoken = await generatemvstoken.getAccessToken();
-    mvs_client = new Client({ accessToken: mvstoken });
-
-    // Get the user ID for the given username
-    const user_id = await Search.getidfromusername("keryan666");
-    const ranked1s = await Search.getRanked1sData(user_id);
-    const ranked2s = await Search.getRanked2sData(user_id);
-    console.log("ranked1s:", ranked1s);
-    console.log("ranked2s:", ranked2s);
+    console.log("hello");
 })().catch((error) => {
     console.error(error);
 });
