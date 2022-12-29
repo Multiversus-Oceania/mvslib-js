@@ -1,7 +1,7 @@
-const generatemvstoken = require("./mvs/generatemvstoken");
+const generatemvstoken = require("./generatemvstoken");
 const {Client} = require("multiversus.js");
-const Search = require("./mvs/search");
-const Characters = require("./mvs/characters");
+const Search = require("./search");
+const Characters = require("./characters");
 require('dotenv').config();
 (async () => {
     // Get access token and create a new client
