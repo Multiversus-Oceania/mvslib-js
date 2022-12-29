@@ -19,3 +19,9 @@ const Users = require("./lib/users.js");
 })().catch((error) => {
     console.error(error);
 });
+
+module.exports.Search = Search;
+module.exports.Characters = Characters;
+module.exports.Users = Users;
+module.exports.requestdata = requestdata;
+module.exports.generatemvstoken = generatemvstoken;
