@@ -1,4 +1,3 @@
-const {Client} = require("multiversus.js");
 const Search = require("./lib/search.js");
 const Characters = require("./lib/characters.js");
 const generatemvstoken = require("./lib/generatemvstoken.js");
