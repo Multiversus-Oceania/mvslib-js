@@ -1,3 +1,4 @@
 /.env
 /users.json
 /test.js
+node_modules
